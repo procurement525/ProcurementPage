@@ -15,40 +15,37 @@
 
       <p>Please fill in this form to request a contract.</p>
       <hr>
-      <p>
-      <label for="email"><b>Your Name</b></label>
-      <input type="text" placeholder="Your Name" name="email" required>
-<p>
-      <label for="psw"><b>Your Email</b></label>
-      <input type="text" placeholder="Your Email" name="psw" required>
-<p>
-      <label for="psw-repeat"><b>Supplier's Name</b></label>
-      <input type="text" placeholder="Supplier's Name" name="psw-repeat" required>
-<p>
-      <label>
-            <label for="email"><b>Supplier's Contact Name</b></label>
-      <input type="text" placeholder="Supplier's Contact Name" name="email" required>
-<p>
-      <label for="psw"><b>Supplier's Contact's Email</b></label>
-      <input type="text" placeholder="Supplier's Contact's Email" name="psw" required>
-<p>
-      <label for="psw-repeat"><b>Type of Contract</b></label>
-      <input type="text" placeholder="Type of Contract" name="psw-repeat" required>
-<p>
 
 <form action="/action_page.php">
   <input type="file" name="pic" accept="image/*">
-
 </form>
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="button" class="signup">Send Request</button>
-      </div>
-    </div>
-  </form>
-</div>
 
-</body>
+<form action="mailto:procurementrequest@costar.com" method="post" enctype="text/plain">
+<p>
+<label for="name"><b>Your Name</b></label>
+<input type="text" name="Requester's Name"><br>
+<p>
+<label for="email"><b>Your Email</b></label>
+<input type="text" name="Requester's Email"><br>
+<p>
+<label for="suppliername"><b>Supplier's Name</b></label>
+<input type="text" name="Supplier Name"><br>
+<p>
+<label for="suppliercontact"><b>Supplier's Contact Name</b></label>
+<input type="text" name="Supplier's Contact Name"><br>
+<p>
+<label for="supplieremail"><b>Supplier's Contact's Email</b></label>
+<input type="text" name="Supplier's Contact's Email"><br>
+<p>
+<label for="contracttype"><b>Type of Contract</b></label>
+<input type="text" name="Type of Contract"><br>
+<p>
+
+
+<input type="submit" value="Sign Up">
+<input type="reset" value="Reset">
+</form>
+
+
 </html>
