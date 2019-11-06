@@ -20,28 +20,31 @@
       <input type="text" placeholder="Your Name" name="email" required>
 <p>
       <label for="psw"><b>Your Email</b></label>
-      <input type="password" placeholder="Your Email" name="psw" required>
+      <input type="text" placeholder="Your Email" name="psw" required>
 <p>
       <label for="psw-repeat"><b>Supplier's Name</b></label>
-      <input type="password" placeholder="Supplier's Name" name="psw-repeat" required>
+      <input type="text" placeholder="Supplier's Name" name="psw-repeat" required>
 <p>
       <label>
             <label for="email"><b>Supplier's Contact Name</b></label>
       <input type="text" placeholder="Supplier's Contact Name" name="email" required>
 <p>
       <label for="psw"><b>Supplier's Contact's Email</b></label>
-      <input type="password" placeholder="Supplier's Contact's Email" name="psw" required>
+      <input type="text" placeholder="Supplier's Contact's Email" name="psw" required>
 <p>
       <label for="psw-repeat"><b>Type of Contract</b></label>
-      <input type="password" placeholder="Type of Contract" name="psw-repeat" required>
+      <input type="text" placeholder="Type of Contract" name="psw-repeat" required>
 <p>
 
-<button type="button" class="Attachment">Add Attachment</button>
+<form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*">
+
+</form>
       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
       <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signup">Send Request</button>
+        <button type="button" class="signup">Send Request</button>
       </div>
     </div>
   </form>
