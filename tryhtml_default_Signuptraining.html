@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Training Sign Up</title>
+</head>
+<body>
+
+<caption><h1>Upcoming Training Seesions</h1></caption>
+<hr></hr>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #010101;
+  text-align: left;
+  padding: 8px;
+}
+
+tr: {
+  background-color: #F8F9F9;
+}
+</style>
+</head>
+<body>
+
+
+<table>
+
+  <tr>
+    <td><h4>Date/Time</h4></td>
+    <td><h4>Location</h4></td>
+    <td><h4>Trainer</h4></td>
+    <td><h4>Sign up</h4></td>
+  </tr>
+  <tr>
+    <td>11/1/2019 - 9am</td>
+    <td>DC HQ - 1st Fl Auditorium</td>
+    <td>Patrick Fifer</td>
+    <td><input type="checkbox" unchecked="checked" name="remember" style="margin-bottom:15px"> </td>
+    
+  </tr>
+  <tr>
+    <td>11/1/2019 - 9am</td>
+    <td>DC HQ - 1st Fl Auditorium</td>
+    <td>Patrick Fifer</td>
+    <td><input type="checkbox" unchecked="checked" name="remember" style="margin-bottom:15px"> </td>
+    
+  </tr>
+    <tr>
+    <td>11/1/2019 - 9am</td>
+    <td>DC HQ - 1st Fl Auditorium</td>
+    <td>Patrick Fifer</td>
+    <td><input type="checkbox" unchecked="checked" name="remember" style="margin-bottom:15px"> </td>
+  </tr>
+    <tr>
+    <td>11/1/2019 - 9am</td>
+    <td>DC HQ - 1st Fl Auditorium</td>
+    <td>Patrick Fifer</td>
+    <td><input type="checkbox" unchecked="checked" name="remember" style="margin-bottom:15px"> </td>
+  </tr>
+
+</table>
+
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p><h3>Please fill in this form to sign up next training</h3></p>
+      <hr>
+   <ul>
+   	<li><p>	
+      <label for="email"><b>Name</b></label>
+      <input type="text" placeholder="Enter Your Name" name="email" required>
+     </p>	</li>
+	<li>
+      <label for="psw"><b>Tittle</b></label>
+      <input type="password" placeholder="Enter Your Tittle" name="psw" required>
+     </p>	</li> 
+	<li><p>	
+      <label for="psw-repeat"><b>Email</b></label>
+      <input type="password" placeholder="Enter your email" name="psw-repeat" required>
+      </p>	</li> 
+    <li><p>	
+      <label for="email"><b>Office Location</b></label>
+      <input type="text" placeholder="Enter Your Office Location" name="email" required>
+      </p>	</li> 
+	<li><p>	
+      <label for="psw"><b>Department</b></label>
+      <input type="password" placeholder="Enter Your Department" name="psw" required>
+      </p>	</li> 
+	<li><p>	
+      <label for="psw-repeat"><b>Second Preferred Time</b></label>
+      <input type="password" placeholder="Enter Second Preferred Time" name="psw-repeat" required>
+      </p>	</li> 
+ </ul>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+      
+   
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+  </div>
+</body>
+</html>
